@@ -7,6 +7,6 @@ setwd("C:\\Users\\Tchamna\\Downloads\\Bike_Sharing_Data_Google_Analytics")
 df<-read_csv("C:\\Users\\Tchamna\\Downloads\\extinctLanguages_data.csv")
 df<-read_excel("C:\\Users\\Tchamna\\Downloads\\extinctLanguages_data.xlsx")
 
-## 2. Install many mackages at the same time
+## 2. Install many packages at the same time
 install.packages(c("tidyverse", "lubridate", "janitor"))
 
