@@ -1,0 +1,27 @@
+### The purpose of this file is to write down simple and reusable steps to use when analyzing data in R Programming Language###
+
+# It was the process I took when I was performing the Case study for my Google Data Analytics Certificate (in May 2021). 
+# It is only basic steps that I show you here, in order to quickly get your data into R and starts playing around with it.
+# If you want to learn more about Using R for data science, I recommend you this free online book : https://r4ds.had.co.nz/
+
+
+# # # # # # # # # # # # # # # # # # # # # # # 
+# Installation and loading of required packages
+# tidyverse: for data import and wrangling
+# tidyverse comes along with: ggplot2, tibble, tidyr, readr, purrr, and dplyr packages
+# libridate: for date functions
+
+# # # # # # # # # # # # # # # # # # # # # # #  
+install.packages("tidyverse") # Installation
+library(tidyverse)  #Loading
+library(ggplot2)  #Loading for visualizion
+
+install.packages("lubridate") # Installation
+library(lubridate)  # Load: helps wrangle date attributes
+
+
+getwd() #displays your working directory
+
+#sets your working directory where your files reside, in order to simplify data importation in R
+setwd("C:\\Users\\Tchamna\\Downloads\\Bike_Sharing_Data_Google_Analytics") # Note that the double backslash \\ is necessary when working on Windows. Only one \ may not work
+
