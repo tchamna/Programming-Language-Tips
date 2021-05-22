@@ -10,3 +10,7 @@ df<-read_excel("C:\\Users\\Tchamna\\Downloads\\extinctLanguages_data.xlsx")
 ## 2. Install many packages at the same time
 install.packages(c("tidyverse", "lubridate", "janitor"))
 
+## 3. Check your session information in R using
+sessioninfo::session_info() 
+sessioninfo::session_info(c("tidyverse","janitor"))
+
