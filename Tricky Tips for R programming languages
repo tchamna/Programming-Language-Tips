@@ -1,0 +1,9 @@
+ON WINDOWS
+
+1. Set the directory with double backslash (antislash) \\
+#set working directory
+setwd("C:\\Users\\Tchamna\\Downloads\\Bike_Sharing_Data_Google_Analytics") 
+#Read File
+df<-read_csv("C:\\Users\\Tchamna\\Downloads\\extinctLanguages_data.csv")
+df<-read_excel("C:\\Users\\Tchamna\\Downloads\\extinctLanguages_data.xlsx")
+
